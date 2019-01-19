@@ -1,0 +1,43 @@
+{{ partial "header.html" . }}
+
+<section class="book-information">
+  <p><strong>Authors:</strong> {{ delimit .Params.authors ", " }}</p>
+  <p><strong>Publication year:</strong> {{ .Params.publication_year }}</p>
+  <p><strong>Publisher:</strong> {{ .Params.publisher }}</p>
+  <p><strong>Genres:</strong> {{ delimit .Params.genres ", " }}</p>
+  <p><strong>Series:</strong> {{ .Params.series }}</p>
+  <p><strong>Pages:</strong> {{ .Params.page_count }}</p>
+  <hr />
+  <p><strong>My rating:</strong> {{ .Params.star_rating }} out of 5</p>
+  <p><strong>Last read:</strong>
+    {{ range last 1 .Params.readings }}
+      from {{ .start_date }}<br />to {{ .finish_date }}
+    {{ end }}
+  </p>
+</section>
+
+<h3>Summary</h3>
+<p>{{ .Params.summary }}</p>
+
+{{ .Content }}
+
+<section class="book-stats">
+  <hr />
+  <h3>Awards</h3>
+  <p class="awards">
+    {{ range .Params.awards }}
+    <strong>{{ .name }}</strong> in {{ .year }};
+    {{ end }}
+  </p>
+</section>
+
+
+<footer class=" footline" >
+	{{with .Params.LastModifierDisplayName}}
+	    <i class='fas fa-user'></i> <a href="mailto:{{ $.Params.LastModifierEmail }}">{{ . }}</a> {{with $.Date}} <i class='fas fa-calendar'></i> {{ .Format "02/01/2006" }}{{end}}
+	    </div>
+	{{end}}
+</footer>
+
+
+{{ partial "footer.html" . }}

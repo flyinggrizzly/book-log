@@ -14,7 +14,7 @@ metaDataFormat = "yaml"
   showVisitedLinks = true
   disableBreadcrumb = true
   disableNextPrev = true
-  themeVariant = "blue" # choose theme variant "green", "gold" , "gray", "blue" (default)
+  themeVariant = "books" # choose theme variant "green", "gold" , "gray", "blue" (default)
   disableSearch = false
   disableShortcutsTitle = true
   ordersectionsby = "weight" # ordersectionsby = "title"
