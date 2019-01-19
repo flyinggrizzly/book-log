@@ -1,3 +1,24 @@
-baseURL = "http://example.org/"
+baseURL = "https://www.flyinggrizzly.net/books-what-i-read/"
+publishDir = "public/books-what-i-read"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Books what I've read"
+
+theme = "learn"
+
+metaDataFormat = "yaml"
+
+[params]
+  description = "Books I've read"
+  author = "Sean DMR"
+  showVisitedLinks = true
+  disableBreadcrumb = true
+  disableNextPrev = true
+  themeVariant = "blue" # choose theme variant "green", "gold" , "gray", "blue" (default)
+  disableSearch = false
+  disableShortcutsTitle = true
+  ordersectionsby = "weight" # ordersectionsby = "title"
+  disableAssetsBusting = false
+  disableInlineCopyToClipBoard = false
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
