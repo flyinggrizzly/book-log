@@ -1,4 +1,5 @@
 ---
+date: 2019-01-15 # last read date
 title: Ancillary Justice
 authors:
   - Ann Leckie
