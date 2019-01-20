@@ -125,3 +125,7 @@ section.book-stats {
   clear: both;
 }
 
+.books-menu-footer img {
+  width: 1.5em !important;
+  margin-bottom: -2px;
+}
