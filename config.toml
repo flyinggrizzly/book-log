@@ -17,7 +17,7 @@ metaDataFormat = "yaml"
   themeVariant = "books" # choose theme variant "green", "gold" , "gray", "blue" (default)
   disableSearch = false
   disableShortcutsTitle = true
-  ordersectionsby = "weight" # ordersectionsby = "title"
+  ordersectionsby = "date" # ordersectionsby = "title"
   disableAssetsBusting = false
   disableInlineCopyToClipBoard = false
 
