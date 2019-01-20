@@ -24,7 +24,7 @@ readings:
   - start_date: 2018-11-30
     finish_date: 2019-01-15
 recommenders:
-location: home
+owner: me
 star_rating: 4
 summary: |
   Breq, who used to be a segment in the hive-mind-esque warship Justice of
