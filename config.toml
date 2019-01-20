@@ -1,5 +1,5 @@
 baseURL = "https://www.flyinggrizzly.net/books-what-i-read/"
-publishDir = "public/books-what-i-read"
+publishDir = "public/"
 canonifyUrls = true
 languageCode = "en-us"
 title = "Books what I've read"
