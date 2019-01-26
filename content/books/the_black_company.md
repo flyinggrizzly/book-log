@@ -1,5 +1,5 @@
 ---
-title: "Chronicles of the Black Company"
+title: "the Black Company"
 date: 2019-01-24
 authors:
   - Glen Cook
