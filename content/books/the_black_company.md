@@ -6,6 +6,7 @@ authors:
 language: english
 publication_year: 1984
 publisher: Tor Fantasy
+page_count: 319
 genres:
   - fantasy
   - military fiction

@@ -18,7 +18,7 @@
 </section>
 
 <h4>Summary</h4>
-<p>{{ .Params.summary }}</p>
+<p>{{ .Params.summary | markdownify }}</p>
 
 <h2>What I think and stuff</h2>
 {{ .Content }}
