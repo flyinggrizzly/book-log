@@ -19,10 +19,9 @@ recommenders:
 owner: Frome Library
 star_rating: 2
 summary: |
-  Collection of _The Black Company_ (1984), _Shadows Linger_ (1984), and _The White Rose_ (1985), the
-  first three books in the **Black Company** series (also called the Books of
-  the North). Basically, what if _Rosencrantz and Guildenstern are Dead_, but
-  for the armies of Mordor.
+  Epic fantasy from the point of view of the grunts in the armies of
+  Evil.Basically, what if _Rosencrantz and Guildenstern are Dead_, but for the
+  armies of Mordor.
 ---
 
 This book... I didn't like it much. I get that it's a foundational classic of
