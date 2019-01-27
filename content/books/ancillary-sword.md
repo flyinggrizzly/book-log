@@ -8,7 +8,7 @@ publication_year: 2014
 publisher: Orbit
 genres:
   - science-fiction
-series: Imperial Raadch
+series: Imperial Radch
 readings:
   - finish_date: 2019-01-19
     start_date: 2019-01-12
