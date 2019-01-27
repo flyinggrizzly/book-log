@@ -1,5 +1,5 @@
 ---
-title: "{{ replace .Name "_" " " | title }}"
+title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
 authors:
@@ -7,6 +7,7 @@ authors:
 language: english
 publication_year:
 publisher:
+page_count:
 genres:
   - firstGenre
 series:
