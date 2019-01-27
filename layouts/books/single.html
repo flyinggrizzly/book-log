@@ -24,13 +24,15 @@
 {{ .Content }}
 
 <section class="book-stats">
+  {{ with .Params.awards }}
   <hr />
   <h3>Awards</h3>
   <ul class="awards">
-    {{ range .Params.awards }}
+    {{ range . }}
     <li><strong>{{ .name }}</strong> in {{ .year }}</li>
     {{ end }}
   </ul>
+  {{ end }}
 </section>
 
 
