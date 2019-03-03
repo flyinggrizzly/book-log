@@ -5,7 +5,7 @@
   <p><strong>Publication year:</strong> {{ .Params.publication_year }}</p>
   <p><strong>Publisher:</strong> {{ .Params.publisher }}</p>
   <p><strong>Genres:</strong> {{ delimit .Params.genres ", " }}</p>
-  <p><strong>Series:</strong> {{ .Params.series }}</p>
+  {{ with .Params.series }}<p><strong>Series:</strong> {{ . }}</p>{{ end }}
   <p><strong>Pages:</strong> {{ .Params.page_count }}</p>
   <hr />
   <p><strong>My rating:</strong> {{ .Params.star_rating }} out of 5</p>

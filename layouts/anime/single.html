@@ -5,7 +5,7 @@
   <p><strong>Release year:</strong> {{ .Params.release_year }}</p>
   <p><strong>Studio:</strong> {{ .Params.studio }}</p>
   <p><strong>Genres:</strong> {{ delimit .Params.genres ", " }}</p>
-  <p><strong>Series:</strong> {{ .Params.series }}</p>
+  {{ with .Params.series }}<p><strong>Series:</strong> {{ . }}</p>{{ end }}
   <p><strong>Episodes:</strong> {{ .Params.episode_count }}</p>
   <hr />
   <p><strong>My rating:</strong> {{ .Params.star_rating }} out of 5</p>
