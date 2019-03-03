@@ -1,0 +1,48 @@
+{{ partial "header.html" . }}
+
+<section class="book-information">
+  <p><strong>Creators:</strong> {{ delimit .Params.creators ", " }}</p>
+  <p><strong>Release year:</strong> {{ .Params.release_year }}</p>
+  <p><strong>Studio:</strong> {{ .Params.studio }}</p>
+  <p><strong>Genres:</strong> {{ delimit .Params.genres ", " }}</p>
+  <p><strong>Series:</strong> {{ .Params.series }}</p>
+  <p><strong>Episodes:</strong> {{ .Params.episode_count }}</p>
+  <hr />
+  <p><strong>My rating:</strong> {{ .Params.star_rating }} out of 5</p>
+  <p><strong>Last watched:</strong>
+    {{ range last 1 .Params.viewings }}
+      from {{ .start_date }}<br />to {{ .finish_date }}
+    {{ end }}
+  </p>
+  <p><strong>Owner:</strong> {{ .Params.owner }}</p>
+</section>
+
+<h4>Summary</h4>
+<p>{{ .Params.summary | markdownify }}</p>
+
+<h2>What I think and stuff</h2>
+{{ .Content }}
+
+<section class="book-stats">
+  {{ with .Params.awards }}
+  <hr />
+  <h3>Awards</h3>
+  <ul class="awards">
+    {{ range . }}
+    <li><strong>{{ .name }}</strong> in {{ .year }}</li>
+    {{ end }}
+  </ul>
+  {{ end }}
+</section>
+
+
+<footer class=" footline" >
+	{{with .Params.LastModifierDisplayName}}
+	    <i class='fas fa-user'></i> <a href="mailto:{{ $.Params.LastModifierEmail }}">{{ . }}</a> {{with $.Date}} <i class='fas fa-calendar'></i> {{ .Format "02/01/2006" }}{{end}}
+	    </div>
+	{{end}}
+</footer>
+
+
+{{ partial "footer.html" . }}
+
