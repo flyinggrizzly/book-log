@@ -1,7 +1,6 @@
 ---
 title: "Domestic Girlfriend DomeKano"
 date: 2019-03-03T17:34:32Z
-draft: true
 creators:
   - Ihata Shoota (director)
   - Sasuga Kei (manga author)
