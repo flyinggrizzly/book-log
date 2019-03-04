@@ -19,13 +19,13 @@ recommenders:
 owner: Crunchyroll
 star_rating: 3
 summary: |
-  Highschool student Natsuo is in love with his teacher Hina, despairing of his
+  Highschool student Natsuo is in love with his teacher Hina. Despairing of his
   love for her ever going anywhere, he agrees to have sex for the first time
-  with Rui, a friend of a friend who he meets at a karaoke social shindig. And
-  he is confused by the feelings of emptiness and sameness it leaves him with.
-  When he gets home, he finds out his father is remarrying after 10 years, and
-  meets his new step mother and her two daughters. Who, you guessed it, are Hina
-  and Rui.
+  with Rui, a friend of a friend who he meets at a karaoke social shindig.
+  Natsuo is confused by the feelings of emptiness and sameness it leaves him
+  with. When he gets home, he finds out his father is remarrying after 10 years,
+  and meets his new step mother and her two daughters. Who, you guessed it, are
+  Hina and Rui.
 ---
 
 So... let's get this out of the way: this anime is hella problematic. It...
@@ -51,6 +51,17 @@ I've just finished saying a lot of things that sound bad. And they are. But
 really... the reason I'd still recommend someone might want to watch this are
 two characters: Rui (the younger sister), and Momo, secondary character who pops
 up later.
+
+I also want to give this anime some credit right off the bat: I was wary of the
+step-sibling relationship being mined for titillation factor and this anime
+getting gross from the jump. It doesn't do it. To the anime's credit, it uses
+the relationship as a source of drama because of the enforced proximity of the
+Rui-Hina-Natsuo triangle. It serves really just to put them into an almost
+suffocatingly close environment with each other to ramp up the stakes. And it
+does this well, and in a way that feels worth it.It may be a contrived premise,
+but once it's in play it's used really effectively to create and amplify
+tension. It's not what I feared from a step-sib romance story. So props for
+that.
 
 **Spoilers from here on out.**
 
