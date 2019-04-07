@@ -1,15 +1,15 @@
-baseURL = "https://www.flyinggrizzly.net/books-what-i-read/"
+baseURL = "https://www.flyinggrizzly.net/medialog/"
 publishDir = "public/"
 canonifyUrls = true
 languageCode = "en-us"
-title = "Books what I've read"
+title = "Medialog"
 
 theme = "learn"
 
 metaDataFormat = "yaml"
 
 [params]
-  description = "Books I've read"
+  description = "Medialog"
   author = "Sean DMR"
   showVisitedLinks = true
   disableBreadcrumb = true
