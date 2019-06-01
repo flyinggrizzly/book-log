@@ -1,7 +1,6 @@
 ---
 title: "the Raven Tower"
 date: 2019-05-30T12:19:20+01:00
-draft: true
 authors:
   - Ann Leckie
 language: english
