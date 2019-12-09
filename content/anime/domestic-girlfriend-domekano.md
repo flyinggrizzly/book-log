@@ -63,6 +63,17 @@ but once it's in play it's used really effectively to create and amplify
 tension. It's not what I feared from a step-sib romance story. So props for
 that.
 
+## Quick update
+
+AniFem has published a rundown on this anime, and reading through it, I thought
+it would be worth mentioning the thing that they focused on that I totally
+missed: how _fucked_ it is that the show doesn't really deal with the power
+dynamic and abusive nature of the relationship between Hina and Natsuo. I still
+stand by my thoughts on the rest of the show, but I definitely missed a big
+thing here. [You should read their
+article](https://www.animefeminist.com/feature-when-your-best-girl-is-a-predator-power-dynamics-and-storytelling-in-domestic-girlfriend/).
+And I'm going to spend some time thinking about why I missed that...
+
 **Spoilers from here on out.**
 
 Quick note on Natsuo--I don't like him. But, he does have some good
