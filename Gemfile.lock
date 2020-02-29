@@ -46,7 +46,7 @@ GEM
       mini_portile2 (~> 2.4.0)
     parallel (1.13.0)
     public_suffix (3.0.3)
-    rake (12.3.2)
+    rake (12.3.3)
     s3_website (3.4.0)
       colored (= 1.2)
       configure-s3-website (= 2.3.0)
